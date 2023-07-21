@@ -1,0 +1,16 @@
+// functies, deze moeten eerst
+@import '../node_modules/bootstrap/scss/functions';
+
+// thema-overrides
+$theme: 'djo';
+
+$blue: #180f75;
+$green: #03cea4;
+$red: #db504a;
+$yellow: #f2c14e;
+$cyan: #6184d8;
+
+// bootstrap-variabelen, deze moeten als laatste
+@import 'variables';
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import 'bootswatch';

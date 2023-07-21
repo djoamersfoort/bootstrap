@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "node-sass --output-style compressed --recursive --output dist scss && mv dist/main.css dist/djo.min.css",
+    "serve": "node-sass --output-style compressed --watch --recursive --output css scss"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "node-sass": "^8.0.0"
+  }
+}
