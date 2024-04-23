@@ -4,7 +4,7 @@
     "serve": "node-sass --output-style compressed --watch --recursive --output css scss"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3",
-    "node-sass": "^8.0.0"
+    "bootstrap": "^5.3.3",
+    "node-sass": "^9.0.0"
   }
 }
